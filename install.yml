@@ -1,0 +1,7 @@
+python: "3.10"
+commands:
+    - ["pip", "scikit-learn", "1.5.2"]
+    - ["pip", "umap-learn", "0.5.7"]
+    - ["pip", "eosce", "0.2.0"]
+    - ["pip", "openTSNE", "1.0.2"]
+    - ["pip", "numpy", "1.26.4"]

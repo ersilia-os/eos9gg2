@@ -1,0 +1,9 @@
+name,type,direction,description
+pca_1,float,,First principal component projected on the DrugBank chemical space represented with Ersilia Embeddings
+pca_2,float,,Second principal component projected on the DrugBank chemical space represented with Ersilia Embeddings
+pca_3,float,,Third principal component projected on the DrugBank chemical space represented with Ersilia Embeddings
+pca_4,float,,Fourth principal component projected on the DrugBank chemical space represented with Ersilia Embeddings
+umap_1,float,,First UMAP dimension projected on the DrugBank chemical space represented with Ersilia Embeddings
+umap_2,float,,Second UMAP dimension projected on the DrugBank chemical space represented with Ersilia Embeddings
+tsne_1,float,,First t-SNE dimension projected on the DrugBank chemical space represented with Ersilia Embeddings
+tsne_2,float,,Second t-SNE dimension projected on the DrugBank chemical space represented with Ersilia Embeddings

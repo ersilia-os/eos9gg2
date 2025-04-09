@@ -1,25 +1,42 @@
-Identifier: eos9gg2
-Slug: chemical-space-projections-drugbank
-Status: In progress
-Title: Chemical space 2D projections against DrugBank
-Description: This tool performs PCA, UMAP and tSNE projections taking the DrugBank
-  chemical space as a reference. The Ersilia Compound Embeddings as used as descriptors.
+Biomedical Area:
+- Any
+Contributor: miquelduranfrigola
+Deployment:
+- Local
+Description: 'This tool performs PCA, UMAP and tSNE projections taking the DrugBank
+  chemical space as a reference. The Ersilia Compound Embeddings are used as descriptors.
   Four PCA components and two UMAP and tSNE components are returned.
-Mode: In-house
-Task: Representation
-Input: Compound
-Input Shape: Single
-Output: Descriptor
-Output Type: Float
-Output Shape: List
-Interpretation: Coordinates of 2D projections, namely PCA, UMAP and tSNE.
-Tag:
-- Embedding
-Publication: https://academic.oup.com/nar/article/52/D1/D1265/7416367
-Source Code: https://github.com/ersilia-os/compound-embedding
-License: GPL-3.0-or-later
-S3: https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos9gg2.zip
-DockerHub: https://hub.docker.com/r/ersiliaos/eos9gg2
+
+  '
 Docker Architecture:
 - AMD64
 - ARM64
+DockerHub: https://hub.docker.com/r/ersiliaos/eos9gg2
+Identifier: eos9gg2
+Incorporation Date: '2024-11-09'
+Input:
+- Compound
+Input Dimension: 1
+Input Shape: Single
+Interpretation: Coordinates of 2D projections, namely PCA, UMAP and tSNE.
+License: GPL-3.0-or-later
+Output:
+- Value
+Output Consistency: Fixed
+Output Dimension: 8
+Publication: https://academic.oup.com/nar/article/52/D1/D1265/7416367
+Publication Type: Peer reviewed
+Publication Year: 2024
+S3: https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos9gg2.zip
+Slug: chemical-space-projections-drugbank
+Source: Local
+Source Code: https://github.com/ersilia-os/compound-embedding
+Source Type: Internal
+Status: Ready
+Subtask: Projection
+Tag:
+- Embedding
+Target Organism:
+- Not Applicable
+Task: Representation
+Title: Chemical space 2D projections against DrugBank

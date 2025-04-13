@@ -2,24 +2,30 @@ Identifier: eos9gg2
 Slug: chemical-space-projections-drugbank
 Status: Ready
 Title: Chemical space 2D projections against DrugBank
-Description: "This tool performs PCA, UMAP and tSNE projections taking the DrugBank
+Description: This tool performs PCA, UMAP and tSNE projections taking the DrugBank
   chemical space as a reference. The Ersilia Compound Embeddings are used as descriptors.
-  Four PCA components and two UMAP and tSNE components are returned.\n"
-Deployment: '[Local]'
+  Four PCA components and two UMAP and tSNE components are returned.
+Deployment:
+  - Local
 Source: Local
 Source Type: Internal
 Task: Representation
 Subtask: Projection
-Input: '[Compound]'
+Input:
+  - Compound
 Input Dimension: 1
 Input Shape: Single
-Output: '[Value]'
+Output:
+  - Value
 Output Dimension: 8
 Output Consistency: Fixed
 Interpretation: Coordinates of 2D projections, namely PCA, UMAP and tSNE.
-Tag: '[Embedding]'
-Biomedical Area: '[Any]'
-Target Organism: '[Not Applicable]'
+Tag:
+  - Embedding
+Biomedical Area:
+  - Any
+Target Organism:
+  - Not Applicable
 Publication Type: Peer reviewed
 Publication Year: 2024
 Publication: https://academic.oup.com/nar/article/52/D1/D1265/7416367
@@ -29,6 +35,8 @@ Contributor: miquelduranfrigola
 Incorporation Date: '2024-11-09'
 S3: https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos9gg2.zip
 DockerHub: https://hub.docker.com/r/ersiliaos/eos9gg2
-Docker Architecture: '[AMD64, ARM64]'
+Docker Architecture:
+  - AMD64
+  - ARM64
 Model Size: 164.0
 Environment Size: 973.0

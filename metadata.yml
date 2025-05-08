@@ -39,6 +39,6 @@ Docker Architecture:
   - AMD64
   - ARM64
 Model Size: 164.0
-Environment Size: 972.0
+Environment Size: 974.0
 Image Size: 1186.01
 Docker Pack Method: FastAPI

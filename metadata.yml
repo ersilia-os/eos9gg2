@@ -37,7 +37,7 @@ S3: https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos9gg2.zip
 DockerHub: https://hub.docker.com/r/ersiliaos/eos9gg2
 Docker Architecture: AMD64
 Model Size: 164.0
-Environment Size: 975.0
+Environment Size: 987.0
 Image Size: 1200.13
 Computational Performance 1: 74.87
 Computational Performance 2: 65.42

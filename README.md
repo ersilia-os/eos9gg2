@@ -42,17 +42,17 @@ Below are the **Output Columns** of the model:
 - **Source:** `Local`
 - **Source Type:** `Internal`
 - **DockerHub**: [https://hub.docker.com/r/ersiliaos/eos9gg2](https://hub.docker.com/r/ersiliaos/eos9gg2)
-- **Docker Architecture:** `AMD64`
+- **Docker Architecture:** `AMD64`, `ARM64`
 - **S3 Storage**: [https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos9gg2.zip](https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos9gg2.zip)
 
 ### Resource Consumption
 - **Model Size (Mb):** `164`
 - **Environment Size (Mb):** `987`
-- **Image Size (Mb):** `1200.13`
+- **Image Size (Mb):** `1215.29`
 
 **Computational Performance (seconds):**
-- 10 inputs: `74.87`
-- 100 inputs: `67.1`
+- 10 inputs: `72.02`
+- 100 inputs: `64.68`
 - 10000 inputs: `-1`
 
 ### References

@@ -2,8 +2,7 @@
 
 This tool performs PCA, UMAP and tSNE projections taking the DrugBank chemical space as a reference. The Ersilia Compound Embeddings are used as descriptors. Four PCA components and two UMAP and tSNE components are returned.
 
-This model was incorporated on 2024-11-09.
-
+This model was incorporated on 2024-11-09.Last packaged on 2025-11-18.
 
 ## Information
 ### Identifiers
@@ -43,18 +42,18 @@ Below are the **Output Columns** of the model:
 - **Source:** `Local`
 - **Source Type:** `Internal`
 - **DockerHub**: [https://hub.docker.com/r/ersiliaos/eos9gg2](https://hub.docker.com/r/ersiliaos/eos9gg2)
-- **Docker Architecture:** `AMD64`, `ARM64`
+- **Docker Architecture:** `AMD64`
 - **S3 Storage**: [https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos9gg2.zip](https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos9gg2.zip)
 
 ### Resource Consumption
 - **Model Size (Mb):** `164`
 - **Environment Size (Mb):** `989`
-- **Image Size (Mb):** `1215.29`
+- **Image Size (Mb):** `1291.97`
 
 **Computational Performance (seconds):**
-- 10 inputs: `72.02`
-- 100 inputs: `64.68`
-- 10000 inputs: `-1`
+- 10 inputs: `46.15`
+- 100 inputs: `36.46`
+- 10000 inputs: `737.58`
 
 ### References
 - **Source Code**: [https://github.com/ersilia-os/compound-embedding](https://github.com/ersilia-os/compound-embedding)

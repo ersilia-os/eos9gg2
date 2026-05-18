@@ -48,3 +48,4 @@ Computational Performance 4: 167.53
 Computational Performance 5: 736.76
 Input Shape: Single
 Docker Pack Method: FastAPI
+Publication: https://doi.org/10.1093/nar/gkad976

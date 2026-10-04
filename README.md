@@ -1,6 +1,6 @@
 # Chemical space 2D projections against DrugBank
 
-This tool performs PCA, UMAP and tSNE projections taking the DrugBank chemical space as a reference. The Ersilia Compound Embeddings are used as descriptors. Four PCA components and two UMAP and tSNE components are returned.
+Places a compound against DrugBank, returning four principal components alongside two-dimensional UMAP and t-SNE coordinates. Positioning is computed over Ersilia Compound Embeddings rather than fingerprints, so proximity reflects learned similarity rather than shared substructures. Using approved and investigational drugs as the reference makes this a way of asking how closely a query resembles chemistry that has already reached development, rather than screening chemistry.
 
 This model was incorporated on 2024-11-09.Last packaged on 2026-02-24.
 
@@ -23,7 +23,7 @@ This model was incorporated on 2024-11-09.Last packaged on 2026-02-24.
 ### Output
 - **Output Dimension:** `8`
 - **Output Consistency:** `Fixed`
-- **Interpretation:** Coordinates of 2D projections, namely PCA, UMAP and tSNE.
+- **Interpretation:** Coordinates from PCA, UMAP and t-SNE projections against the DrugBank chemical space.
 
 Below are the **Output Columns** of the model:
 | Name | Type | Direction | Description |

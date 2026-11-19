@@ -2,7 +2,8 @@
 
 Places a compound against DrugBank, returning four principal components alongside two-dimensional UMAP and t-SNE coordinates. Positioning is computed over Ersilia Compound Embeddings rather than fingerprints, so proximity reflects learned similarity rather than shared substructures. Using approved and investigational drugs as the reference makes this a way of asking how closely a query resembles chemistry that has already reached development, rather than screening chemistry.
 
-This model was incorporated on 2024-11-09.Last packaged on 2026-02-24.
+This model was incorporated on 2024-11-09.
+Last packaged on 2026-02-24.
 
 ## Information
 ### Identifiers

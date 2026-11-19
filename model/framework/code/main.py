@@ -13,6 +13,11 @@ f = os.path.join(ROOT, "..", "..", "checkpoints", "pca.joblib")
 pca = joblib.load(f)
 f = os.path.join(ROOT, "..", "..", "checkpoints", "umap.joblib")
 umap = joblib.load(f)
+# The UMAP was fitted without random_state, so umap-learn runs transform() with parallel (Hogwild) numba SGD
+# whose thread races make outputs differ between runs on machines with many cores. A non-None random_state only
+# switches transform() to the serial path; it still seeds itself from umap.transform_seed (42) and the fitted
+# model is unchanged.
+umap.random_state = 42
 f = os.path.join(ROOT, "..", "..", "checkpoints", "tsne.joblib")
 tsne = joblib.load(f)
 f = os.path.join(ROOT, "..", "..", "checkpoints", "pca_scaler.joblib")

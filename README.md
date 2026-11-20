@@ -45,6 +45,7 @@ Below are the **Output Columns** of the model:
 - **DockerHub**: [https://hub.docker.com/r/ersiliaos/eos9gg2](https://hub.docker.com/r/ersiliaos/eos9gg2)
 - **Docker Architecture:** `AMD64`
 - **S3 Storage**: [https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos9gg2.zip](https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos9gg2.zip)
+- **Apptainer**: [https://models-sif.s3.eu-north-1.amazonaws.com/eos9gg2_v2.sif](https://models-sif.s3.eu-north-1.amazonaws.com/eos9gg2_v2.sif)
 
 ### Resource Consumption
 - **Model Size (Mb):** `164`
